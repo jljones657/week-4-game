@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jquery Week 4 Game </title>
+    <!-- Bootstrap File -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+  integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<!-- Header -->
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class=Title>
+                <h1>
+                    Perfect Bartender!
+                </h1>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- Playing the game -->
+<div class="row">
+    
+    <div class="col-6">
+            <div id=customer>
+
+            </div>
+    </div>
+</div>
+
+<!-- How many people have passed out, and how many have left the bar happy -->
+    <div class="col-6">
+        <h2>Customer's Constitution
+        <span id=scoreToMatch></span>
+        </h2>
+        <h2>
+            Customer's drunkenness
+            <span id=totalScore></span>
+        </h2>
+        <!-- Happy Customers is the amount of games won -->
+        <h3>
+            Happy Customers:
+            <span id=happy></span>
+        </h3>
+        <!-- Drunks passed out in front of you is the amount of times that you've lost -->
+        <h3>
+            Drunks passed out in front of you
+            <span id=drunk></span>
+        </h3>
+        <p>
+            Serve the perfect amount of drinks to your customers!
+            <br><br>
+            You have to keep in mind that everyone has a different number of drinks that they can handle!
+        </p>
+    </div>
+
+    <!-- Buttons! -->
+    <div class="row">
+        <div class="col-12">
+                <div class="row text-center">
+                        <div class="col-sm-3">
+                        <img src="assets/images/beer.jpg" class="img-thumnail beer" alt="beer" width="200" height="200" />
+                        </div>
+                        <div class="col-sm-3">
+                        <img src="assets/images/wine.jpg" class="img-thumbnail wine" alt="wine" width="200" height="200" />
+                        </div>
+                        <div class="col-sm-3">
+                        <img src="assets/images/whiskey.jpg" class="img-thumnail whiskey" alt="whiskey" width="200" height="200" />
+                        </div>
+                        <div class="col-sm-3">
+                          <img src="assets/images/margarita.jpg" class="img-thumnail margarita" alt="margarita" width="200" height="200" />
+                        </div>
+                </div>
+        </div>
+    </div>
+</body>
+<!-- javascript -->
+<script src="assets/javascript/game.js"></script> 
+</html>
