@@ -15,7 +15,7 @@ $( document ).ready(function(){
     var num4= Math.floor(Math.random()*12+1)
     console.log(num4)
     
-    // Variables to keep track of wins, losses and total
+    // Variables to keep track of who is happy, and who is drunk!
     var playerTotal= 0; 
     var wins= 0;
     var losses = 0;
@@ -38,19 +38,19 @@ $( document ).ready(function(){
         } 
   // Display wins
   function woohoo(){
-  alert("Congrats! You won!");
+  alert("Congrats! This customer is completely satisfied!");
     wins++; 
-    $('#wins').text(wins);
+    $('#happy').text(wins);
     reset();
   }
   // Display losses
   function loser(){
-  alert ("Sorry! You lose!");
+  alert ("Sorry! This guy is passed out!");
     losses++;
-    $('#losses').text(losses);
+    $('#drunk').text(losses);
     reset()
   }
-  // Clicking crystals
+  // Clicking drinks
     $('.beer').on ('click', function(){
       playerTotal = playerTotal + num1;
       console.log("New playerTotal= " + playerTotal);
@@ -98,4 +98,5 @@ $( document ).ready(function(){
             loser();
           }
     });   
+
   }); 
