@@ -1,28 +1,38 @@
 body {
-    background: lightsalmon;
+    background-image: url("../images/bar.png");
 }
 
 h1{
-    color:black;
+    color:red;
+    border:1px solid white;
     text-align: center;
+    opacity: 1;
 }
 
 h2 {
-    color:black;
+    color:red;
     text-align: center;
+    opacity: 1;
 }
 
 h3 {
-    color:black;
+    color:red;
     text-align: center;
+    opacity:1;
 }
 
 p {
-    color:black;
+    color:red;
     text-align:center;
+    opacity: 1;
 }
 
 .col-12{
-    text-align: center;
+    text-align: red ;
     margin-top: 100px;
+}
+
+.box{
+    opacity: .5;
+    background: black;
 }
